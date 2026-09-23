@@ -1,0 +1,12 @@
+Package: repeatsurvival
+Title: Time to a Second Purchase: Survival Analysis of Online Retail II
+Version: 0.1.0
+Authors@R: person("Mayank", "Ghadia", role = c("aut", "cre"))
+Description: Kaplan-Meier curves and Cox proportional hazards models for how
+    long new customers take to buy again, on the UCI Online Retail II data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.3)
+Imports: dplyr, ggplot2, readxl, digest, jsonlite, survival
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
