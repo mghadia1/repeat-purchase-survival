@@ -2,7 +2,7 @@
 
 After a customer's first order, how long until they buy again, and what predicts a faster return? This is a **survival analysis in R** of 4,157 real customers of a UK online wholesaler, using Kaplan–Meier curves, log-rank tests, and a Cox proportional-hazards model with its assumptions checked. The model is evaluated on customers it never saw.
 
-> **Status: learning project (September 2026), local only, not pushed.** It is built, tested (12 `testthat` tests), and run on real data, and I am still practising explaining it. It is also my first R project, so R is a **learning** skill, not a claimed one. The data is one UK gift-ware wholesaler, 2009–2011, so the findings describe that business only.
+> **Status: learning project (September 2026).** It is built, tested (12 `testthat` tests), and run on real data, and I am still practising explaining it. It is also my first R project, so R is a **learning** skill, not a claimed one. The data is one UK gift-ware wholesaler, 2009–2011, so the findings describe that business only.
 
 ![What ignoring censoring does to a return rate](docs/figures/censoring_bias.png)
 
